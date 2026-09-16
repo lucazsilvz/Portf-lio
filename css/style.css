@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -39,6 +43,7 @@ a {
 ul {
   list-style: none;
 }
+
 
 
 /* =========================
@@ -124,6 +129,7 @@ header {
 
   cursor: pointer;
 }
+
 
 
 /* =========================
@@ -289,6 +295,7 @@ header {
 }
 
 
+
 /* =========================
    CODE CARD
 ========================= */
@@ -364,6 +371,7 @@ header {
 }
 
 
+
 /* =========================
    SEÇÕES
 ========================= */
@@ -402,6 +410,7 @@ header {
 
   margin-top: 5px;
 }
+
 
 
 /* =========================
@@ -458,6 +467,7 @@ header {
 }
 
 
+
 /* =========================
    TECNOLOGIAS
 ========================= */
@@ -502,12 +512,21 @@ header {
 }
 
 
-.tech-card i {
-  font-size: 35px;
+/* ÍCONES DAS TECNOLOGIAS */
 
-  color: #766dff;
+.tech-card > i {
+  display: block;
 
-  margin-bottom: 15px;
+  font-size: 45px;
+
+  margin-bottom: 18px;
+
+  transition: transform 0.3s ease;
+}
+
+
+.tech-card:hover > i {
+  transform: scale(1.15);
 }
 
 
@@ -521,6 +540,7 @@ header {
 
   font-size: 14px;
 }
+
 
 
 /* =========================
@@ -647,6 +667,7 @@ header {
 }
 
 
+
 /* =========================
    CONTATO
 ========================= */
@@ -716,6 +737,7 @@ header {
 }
 
 
+
 /* =========================
    FOOTER
 ========================= */
@@ -736,6 +758,7 @@ footer {
 footer strong {
   color: #b4b6be;
 }
+
 
 
 /* =========================
@@ -775,6 +798,7 @@ footer strong {
   }
 
 }
+
 
 
 @media (max-width: 650px) {

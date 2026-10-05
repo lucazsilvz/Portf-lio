@@ -51,17 +51,4 @@ O site continuará sendo atualizado conforme minha evolução como desenvolvedor
 - Lógica de Programação
 - Git e GitHub
 
----
 
-## 📂 Estrutura do projeto
-
-```text
-Portf-lio/
-│
-├── index.html
-│
-├── CSS/
-│   └── style.css
-│
-└── js/
-    └── script.js
